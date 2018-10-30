@@ -16,16 +16,16 @@ export class AppslistComponent {
 
   ngOnInit() {
     this.records= [
-      { CategoryName: "huddle", imageUrl: "https://cdn3.iconfinder.com/data/icons/iconano-web-stuff/512/109-External-512.png" },
+      { CategoryName: "huddle", imageUrl: "../../assets/Layer1.png" },
       { CategoryName: "O365", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
-      {  CategoryName: "peopleSoft", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      { CategoryName: "TalentNext",  imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      { CategoryName: "Refer", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      {CategoryName: "Etravel", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      { CategoryName: "Health+", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      {CategoryName: "Radio", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      {CategoryName: "Maganize",  imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
-      {CategoryName: "Ebooks", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" }
+      {  CategoryName: "peopleSoft", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      { CategoryName: "TalentNext",  imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      { CategoryName: "Refer", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      {CategoryName: "Etravel", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      { CategoryName: "Health+", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      {CategoryName: "Radio", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      {CategoryName: "Maganize",  imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
+      {CategoryName: "Ebooks", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" }
      ];
      // this.sort(this.column);
   }

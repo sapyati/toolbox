@@ -9,11 +9,11 @@
       </mat-form-field>
     </div>
       <ul *ngFor="let item of records  | category: searchText">
-        <li class="col-md-3">
-          <div class="card">
-            <img [src]="item.imageUrl" alt="{{item.imageUrl}}" style="width:80%">
+        <li class="col-md-2" style="margin: 1%;">
+          <div class="card ">
+            <img [src]="item.imageUrl" class="appList" alt="{{item.imageUrl}}">
             <div class="container">
-              <p>{{item.CategoryName}}</p> 
+              <p style="color: #77b690;font-size: 1.5em;">{{item.CategoryName}}</p> 
             </div>
           </div>
           </li>
