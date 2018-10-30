@@ -17,7 +17,7 @@ export class AppslistComponent {
   ngOnInit() {
     this.records= [
       { CategoryName: "huddle", imageUrl: "https://cdn3.iconfinder.com/data/icons/iconano-web-stuff/512/109-External-512.png" },
-      { CategoryName: "O365", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      { CategoryName: "O365", imageUrl: "https://image.flaticon.com/sprites/new_packs/122625-color-arrow-collection.png" },
       {  CategoryName: "peopleSoft", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
       { CategoryName: "TalentNext",  imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
       { CategoryName: "Refer", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
