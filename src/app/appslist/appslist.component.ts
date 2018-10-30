@@ -16,16 +16,16 @@ export class AppslistComponent {
 
   ngOnInit() {
     this.records= [
-      { CategoryName: "Beverages", Description: "Coffees, teas" },
-      { CategoryName: "Condiments", Description: "Sweet and savory sauces" },
-      {  CategoryName: "Confections", Description: "Desserts and candies" },
-      { CategoryName: "Cheeses",  Description: "Smetana, Quark and Cheddar Cheese" },
-      { CategoryName: "Grains/Cereals", Description: "Breads, crackers, pasta, and cereal" },
-      {CategoryName: "Beverages", Description: "Beers, and ales" },
-      { CategoryName: "Condiments", Description: "Selishes, spreads, and seasonings" },
-      {CategoryName: "Confections", Description: "Sweet breads" },
-      {CategoryName: "Cheeses",  Description: "Cheese Burger" },
-      {CategoryName: "Grains/Cereals", Description: "Breads, crackers, pasta, and cereal" }
+      { CategoryName: "huddle", imageUrl: "https://cdn3.iconfinder.com/data/icons/iconano-web-stuff/512/109-External-512.png" },
+      { CategoryName: "O365", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      {  CategoryName: "peopleSoft", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      { CategoryName: "TalentNext",  imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      { CategoryName: "Refer", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      {CategoryName: "Etravel", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      { CategoryName: "Health+", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      {CategoryName: "Radio", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      {CategoryName: "Maganize",  imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" },
+      {CategoryName: "Ebooks", imageUrl: "https://png.pngtree.com/svg/20170904/url_650529.png" }
      ];
      // this.sort(this.column);
   }

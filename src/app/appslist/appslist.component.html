@@ -10,12 +10,8 @@
       <ul *ngFor="let item of records  | category: searchText">
         <li class="col-md-3">
           <div class="card">
-            <img src="img_avatar.png" alt="Avatar" style="width:100%">
+            <img [src]="item.imageUrl" alt="{{item.imageUrl}}" style="width:80%">
             <div class="container">
               <p>{{item.CategoryName}}</p> 
             </div>
           </div>
-       
-       </li>    
-      </ul>
-    </div>
