@@ -1,6 +1,20 @@
 .wrap {
-	background: url(../../assets/bg.jpg);
+	background: url(../../assets/bg1.png);	
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
+}
+.appsuite{
+	background: url(../../assets/NewProject.png);
+	width: 150px;
+	left: 27%;
+	height: 150px;
+	position: absolute;
+
+}
+.headerbrand{
+	width: 30%;
+    height: 64px;
+      padding: 5px 5px;
+ 
 }

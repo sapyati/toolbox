@@ -1,17 +1,18 @@
 <div class="wrap">
-  <mat-toolbar color="primary" class="mat-elevation-z6">
-      <mat-toolbar-row>
-          <span>App Suite</span>
-      </mat-toolbar-row>
-  </mat-toolbar>
-  
-  <div class="login-container">
-      <mat-form-field>
+        <mat-toolbar color="primary" class="mat-elevation-z6">
+                <mat-toolbar-row>
+                    <span><img src="https://appaccess.mphasis.com/images/Mphasis_Login.png" class="headerbrand" alt=""></span>
+                </mat-toolbar-row>
+            </mat-toolbar>
+  <div class="login-container"class="login-container">
+      <span class="appsuite"></span>
+      <br/>  <br/> <br/> <br/> <br/><mat-form-field>
           <input matInput placeholder="User Name">
       </mat-form-field>
       <mat-form-field>
           <input matInput placeholder="Password">
       </mat-form-field>
+      <br/><br/>
       <button mat-raised-button color="accent" (click) = loginUser()>Login</button>
   </div>
 </div>
