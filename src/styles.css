@@ -28,3 +28,30 @@ mat-form-field {
   background: #41b35a;
   color: #fff;
 }
+
+.mat-form-field-label {
+  color: #fff !important;
+}
+.mat-focused .mat-form-field-label {
+    color: #fff !important;
+}
+.mat-form-field-ripple {
+    background-color: #fff !important;
+}
+
+.mat-form-field input {
+  color: #fff !important;
+  font-weight: normal !important;
+}
+
+.mat-input-element {
+    caret-color: #fff;
+}
+
+.mat-form-field-underline {
+  background-color: #BCBCBC !important;
+}
+
+.test {
+  color: #fff;
+}
